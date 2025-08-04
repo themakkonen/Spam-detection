@@ -17,7 +17,15 @@ This repository contains:
 
 ## Project Structure
 
----
+---│
+├── app/
+│ ├── app.py # Flask server script
+│ ├── model.pkl # Trained spam detection model
+│ ├── spam.csv # Dataset used for training/testing
+│ └── templates/
+│ └── index.html # Web UI for input and results
+│
+├── spam detection.ipynb # Notebook for data analysis and training (PDF in repo)
 
 ## Installation
 
